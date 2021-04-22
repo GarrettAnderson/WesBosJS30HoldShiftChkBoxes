@@ -5,7 +5,7 @@
 
 const chkBox = document.querySelector('input[type="checkbox"]')
 
-const chkBoxes = document.querySelectorAll('.inbox')
+const chkBoxes = document.querySelector('figure')
 
 console.log(chkBoxes)
 
