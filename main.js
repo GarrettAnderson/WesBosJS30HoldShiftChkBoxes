@@ -9,6 +9,10 @@ console.log(chkBoxes.children)
 let boxIsChecked = chkBoxes.children
 console.log(boxIsChecked)
 
+for (let i = 0; i <= boxIsChecked.length; i++) {
+  console.log(boxIsChecked[i])
+}
+
 
 
 
