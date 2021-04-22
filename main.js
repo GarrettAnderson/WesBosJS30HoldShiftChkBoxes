@@ -1,13 +1,15 @@
 // MY SOLUTION
 
-
-
-
 const chkBox = document.querySelector('input[type="checkbox"]')
 
 const chkBoxes = document.querySelector('figure')
 
-console.log(chkBoxes)
+console.log(chkBoxes.children)
+
+let boxIsChecked = chkBoxes.children
+console.log(boxIsChecked)
+
+
 
 
 
