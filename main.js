@@ -4,13 +4,21 @@ const chkBox = document.querySelector('input[type="checkbox"]')
 
 const chkBoxes = document.querySelector('figure')
 
-console.log(chkBoxes.children)
+// console.log(chkBoxes.children)
 
 let boxIsChecked = chkBoxes.children
-console.log(boxIsChecked)
+// console.log(boxIsChecked)
+
+
 
 for (let i = 0; i <= boxIsChecked.length; i++) {
-  console.log(boxIsChecked[i])
+  // console.log(boxIsChecked[i].children)
+
+  let inputEl = boxIsChecked[i].children
+
+  for (let j = 0; j <= inputEl.length; j++) {
+    console.log(inputEl[0])
+  }
 }
 
 
