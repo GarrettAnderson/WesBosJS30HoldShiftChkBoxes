@@ -1,0 +1,8 @@
+{
+  "name": "hold-shift-and-check-boxes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/GarrettAnderson/WesBosJS30HoldShiftChkBoxes.git",
+  "author": "GarrettAnderson <garrettleegrahamanderson@gmail.com>",
+  "license": "MIT"
+}
